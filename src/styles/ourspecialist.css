@@ -1,0 +1,46 @@
+.mainour{
+    background-color: rgba(230, 246, 254, 1);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.mainser , .maincl{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.mainour h1 , .mainser h1 ,.maincl h1{
+    font-style: italic;
+    font-weight: 100;
+    size: 42px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainser .card-text{
+    font-size: 14px;
+}
+.mainour p , .maincl p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.twobtn{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.twobtn button{
+    height: 40px;
+    width:40px;
+    background-color: rgba(89, 193, 46, 1);
+    border : 1px solid rgba(0, 0, 0, 1);
+
+}
+.arr-i{
+    height: 30px;
+    width: 30px;
+}

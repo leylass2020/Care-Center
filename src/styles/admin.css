@@ -1,0 +1,175 @@
+.admin-left{
+    text-align: center;
+    background-color: rgba(116, 188, 238, 1);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+.admin-left .left-head{
+    padding-left: 10px;
+    width:350px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black; 
+}
+.admin-left .left-head img{
+    width:50px;
+    height: 50px;
+}
+.admin-left .left-head {
+    text-align: left;
+}
+.admin-left .admin-button{
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.admin-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-button button{
+    margin-top: 5px;
+    margin-right: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+    width:250px;
+    border-radius: 5px;
+    height:50px;
+    background-color: white;
+    filter: drop-shadow(0 4px 4px 0 rgba(0, 0, 0, 0.25));
+}
+.admin-button button:active , .admin-button button::selection{
+    background-color: #E6F6FE;
+}
+
+.admin-acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.admin-acc .section-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iban-cod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.admin-acc .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.admin-acc .input-new{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.admin-acc .input-new1{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin-right: 10px;
+}
+.admin-acc .iban-cod .input-new1 input{
+    border: none;
+    width: 30px;
+}
+.admin-acc .row input{
+    border: none;
+    margin-right: 20px;
+}
+.admin-acc .edit-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.admin-acc .edit-btn  button{
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width:300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(116, 188, 238, 1);
+    color: white;
+    text-align: center;  
+}
+.input-new{
+    text-align: center;
+}
+.input-new label{
+    align-items: center;
+}
+.input-new input{
+    border: none;
+    margin-right: 20px;
+}
+.section-input textarea{
+    height:50px;
+    width:300px;
+    border: none;
+}
+
+.collaps-ad{
+    display: none;
+}
+
+@media (max-width:800px){
+    
+    .admin-left{
+        display: none;
+    }
+    .collaps-ad{
+        margin: 20px;
+        text-align: center;
+        text-align: center;
+        display: flex;
+        padding-bottom: 30px;
+       
+    }
+    .coll-menu{
+        position: absolute;
+        margin-top: 40px;
+        padding-bottom: 10px;
+        width: 200px;
+        background-color: rgba(116, 188, 238, 1);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+@media (max-width:500px){
+    .admin-acc .section-input .input-new{
+        width:200px;
+    }
+    .admin-acc .edit-btn  button{
+        width:200px;
+    }
+    .section-input textarea{
+        width:200px;
+    }
+}

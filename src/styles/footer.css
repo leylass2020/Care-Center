@@ -1,0 +1,28 @@
+
+.footer{
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width:100%;
+    
+}
+.footer .col-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.footer .text-foot p{
+    font-size: 12px;
+    text-align: left;
+}
+.icon{
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+}

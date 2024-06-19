@@ -1,0 +1,71 @@
+.head-find{
+    background-color: rgba(34, 172, 241, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head-find .ser-find{
+    background-color: rgba(255, 255, 255, 0.69);
+    width:50vw;
+    height:80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ser-find input{
+    width:30vw;
+    height:40px;
+    border: none;
+    margin-right: 10px;
+    background-color: transparent;
+}
+.ser-btns button{
+    background-color: white;
+    color:black;
+    width:20vw;
+    height:50px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ser-btns button a{
+    font-style: none;
+}
+
+.street{
+    display: flex;
+    border: 15px solid rgba(34, 172, 241, 1);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:50vw;
+    border-radius: 10px;
+}
+.strd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-doc{
+    border:20px solid blue;
+    border-radius: 10px;
+    width:fit-content;
+    margin-bottom: 40px;  
+}
+
+.main-find{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}

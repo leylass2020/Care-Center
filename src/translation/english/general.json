@@ -1,0 +1,155 @@
+{
+    "Landing":{
+        "getstart":"Get Started",
+        "firstsec":{
+            "title":"Lorem Ipsum",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. "
+            },
+        "specialits":{
+                "title":"Meet our specialists",
+                "body":"We use only the best quality materials on the market in order to provide the best products to our patients."
+            },
+        "services":{
+                "title":"Services",
+                "body":"We use only the best quality materials on the market in order to provide the best products to our patients.",
+                "findser":"Find service"
+            },
+        "client":{
+                "title":"Our Happy Clients",
+                "body":"We use only the best quality materials on the market in order to provide the best products to our patients."
+            },
+        "fqs":{
+                "title":"Frequently Ask Question",
+                "body":"We use only the best quality materials on the market in order to provide the best products to our patients."
+            }
+        },
+    "navbar":{
+        "home":"Home",
+        "contact":"Contact",
+        "services":"Services",
+        "about":"About",
+        "login":"LogIn"
+        }  ,
+    "language":"En",
+    "name":"name",
+    "username":"User Name",
+    "email":"Email",
+    "password":"Password",
+    "resetpass":"Reset Password",
+    "forgetpass":"Forget Password? ",
+    "login":"LogIn",
+    "loginpatient":"Patient",
+    "creatAccount":"Creat Account",
+    "loginprovider":"Provider",
+    "bank":"Bank Name",
+    "iban":"Iban Code",
+    "upload":"Upload",
+    "editeres":"Edite reason",
+    "pdf":"Pdf",
+    "swift":"Swift Code",
+
+    "newpass":"New Password",
+    "confirmpass":"Confirm Password",
+    "creatpatient":"Creat account as Patient",
+    "creatprovider":"Creat account as Provider",
+    "edit":"Edite Account",
+
+    "search":"search",
+    "review":"Review",
+
+    "providerAcc":{
+        "acc":"Account",
+        "edit":"Edite Account",
+        "ser":"Service Managmrnt",
+        "pro":"Product Managment",
+        "Addser":"Add service",
+        "Addpro":"Add Product",
+        "logout":"Logout"
+
+    },
+
+    "patientAcc":{
+        "edit":"Edite Account",
+        "pay":"Payment",
+        "cart":"Cart",
+        "logout":"Logout"
+
+    },
+
+    "AdminNav":{
+        "provider":"Providers Managment",
+        "patient":"Patient Managment",
+        "sales":"Sales Reports",
+        "service":"Services Managment",
+        "product":"Product Managment",
+        "reservation":"Reservation Managment",
+        "admanag":"Admin Managment",
+        "adoption":"Admin options",
+        "logout":"Logout"
+    },
+    "Admintabl":{
+        "statu":"status",
+        "name":"Name",
+        "action":"Action",
+        "costanddis":"Cost & Discount",
+        "profile":"Profile",
+        "type":"Type",
+        "discount":"Discount",
+        "cost":"Cost",
+        "date":"Date"
+    },
+    "editser":"Edite Service",
+    "addser":"Add Service",
+    "addpro":"Add Product",
+    "editprod":"Edite Product",
+    "befor":"Befor",
+    "after":"After",
+    "messagedele":"Are sure you want to delete ?",
+    "messageedite":"Are sure you want to edite ?",
+    "yes":"Yes",
+    "no":"No",
+    "patientdelet":"Patient  Was Deleted",
+    "adminedite":"Admin  Was Edited",
+    "providerEd":"Provider has been Edite",
+    "edite":"Edite",
+    "price":"Price",
+    "discount":"Discount",
+    "section":"Section",
+    "addphoto":"Add photos",
+    "uploadphoto":"Upload Photo",
+
+    "findrser":"Find Service",
+    "finddoc":"Find Doctor",
+
+    "contact":{
+        "phone":"Phone Number",
+        "firstn":"First Name",
+        "lastn":"Last Name",
+        "email":"Email",
+        "chat":"Live chat",
+        "tel":"Phone Number",
+        "emailad":"Email Address",
+        "officet":"Office Timings",
+        "officead":"Office Address",
+        "message":"Message",
+        "selectd":"Select date",
+        "book":"Book an appointment",
+        "body":"Book an Appointment to treat your teeth right now.",
+        "title":"Get in touch"
+    },
+
+    "doctorname":"Doctor Name",
+    "doctorloc":"Doctor Location",
+    "sernam":"Service Name",
+    "serpro":"Service Provider",
+    "sertype":"Service type",
+    "serdetail":"Service Details",
+    "proddetail":"Product Details",
+    "date":"Date",
+    "sendmess":"Send Message",
+    "entercode":"Enter Code",
+    "code":"Code",
+    "confirmcode":"Confirm Code",
+    "review":"Review"
+    
+}

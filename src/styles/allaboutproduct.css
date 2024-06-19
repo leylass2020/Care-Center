@@ -1,0 +1,203 @@
+.show-pro{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.head-pro , .body-pro{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:10px; 
+}
+.head-pro{
+    background-color: rgba(230, 246, 254, 1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.body-pro{
+    background-color: rgba(116, 188, 238, 1);
+}
+.body-pro .body-pro-img img{
+    margin-left: 10px;
+    float: left;
+}
+
+
+.edit-product {
+    background-color: rgba(116, 188, 238, 1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.edit-service{
+    background-color: rgba(116, 188, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: max-content;
+}
+.choices{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+.choices input{
+    width:20px !important;
+    height:20px !important;
+    border: 1px solid gray;
+}
+.choices .list-choices{
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 10px;
+}
+.choices .list-choices label{
+    color: black;
+    font-size: 16px;
+}
+.edit-product input , .edit-service input{
+    width:300px;
+    height:50px;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    
+}
+.edit-product label , .edit-service label{
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.edit-product .form-control , .edit-service .form-control {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    
+}
+.edit-product .two-sec,.edit-product .upload-sec ,
+.edit-service .two-sec{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.edit-product .two-sec input , .edit-service .two-sec input{
+    margin-right: 10px;
+    width:150px;
+}
+.edit-product .upload-sec{
+    background-color: white;
+    border-radius: 10px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.upload-sec .photo{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(217, 217, 217, 1);
+}
+.upload-sec .photo p{
+    text-align: center;
+    width:100%;
+    margin-left: 50px;
+}
+.upload-sec .photo input{
+    width:200px;
+    height:200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.edit-product button , .edit-service button{
+    border: none;
+    width:50%;
+    height:50px;
+    border-radius: 10px;
+    background-color: rgba(230, 246, 254, 1);
+}
+.button-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px
+}
+.container1 .add{
+    margin-bottom:30px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    width:250px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(230, 246, 254, 1);
+}
+.container1{
+    margin-left: 20px;
+}
+.container1 .add img{
+    height: 40px;
+    margin-right: -30px;
+}
+.service-body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.show-pro{
+    width: 400px;
+    padding: 10px;
+}
+.head-pro button{
+    background-color: transparent;
+    width:30px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (max-width:850px){
+.upload-sec{
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+}
+
+@media (max-width:650px){
+    .edit-service .select{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+

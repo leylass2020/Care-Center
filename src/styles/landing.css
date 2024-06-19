@@ -1,0 +1,38 @@
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.landing .left-side{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.landing .left-side h1{
+    font-size: 60px;
+    font-family: "roboto-thinitalic";
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: rgba(155, 205, 240, 1);
+}
+.landing .left-side p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.landing .land-btn{
+    font-size: 20px;
+    width:300px;
+    border: none;
+    border-radius: 10px;
+    height:50px;
+    background-color: rgba(193, 232, 177, 1);
+    color: white;
+    margin-top: 20px;
+}
+.landing .right-side img{
+    margin-right: 40px;
+}
+.landing-footer{
+    background-color: rgba(230, 246, 254, 1);
+}

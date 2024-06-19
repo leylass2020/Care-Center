@@ -1,0 +1,161 @@
+.right-account{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.swift{
+    border-radius: 5px;
+    height:40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.pro-new, .attach-btn , .pro-new1 , .swift-cod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pro-new1 .input-new {
+    width:350px;
+}
+.pro-new1 .input-new input{
+    margin-left: 20px;
+}
+.pro-new .input-new , .attach-btn , .pro-new1 .input-new {
+    height:50px;
+}
+.right-reset{
+    background-color: rgba(116, 188, 238, 1);
+    width:fit-content;
+    height:fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right-reset form input {
+    width:250px;
+    height:50px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;   
+    font-size: 18px;
+}
+.right-reset form input:active{
+    border: none;
+}
+.right-reset form .icon{
+    margin-left: -40px;
+    width:27px;
+    height:27px;
+}
+.right-reset form .icon1{
+    width:27px;
+    height:27px;
+}
+.right-reset form label, form label{
+    text-align: left;
+    
+}
+.right-reset div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.right-reset form button{
+    width:250px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(193, 232, 177, 1);
+    margin-top: 10px;
+}
+ #code{
+    width:40px;
+    margin-left: 10px;
+    border: 1px solid black;
+    text-align: center !important;
+}
+.right-reset form .swift-cod {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.input-new{
+    width:300px;
+    height:fit-content;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.right-account{
+    background-color: white !important;
+}
+.attach-file {
+    background-color: rgba(193, 232, 177, 1);
+    height: 50px;
+    width:300px;
+    border-radius: 10px;
+    color: white;
+    margin-left: auto;
+    align-items: flex-start;
+}
+.attach-file p{
+    margin-right: -140px;
+    margin-top: 10px;
+}
+.attach-btn {
+    width:300px;
+    background-color: rgba(193, 232, 177, 1);
+    border-radius: 10px;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.input-new input{
+    align-items: flex-start;
+    margin-left: -20px;
+}
+
+.patient-acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.patient-acc .per-con{
+    border-radius: 50%;
+    border: 10px solid black;
+    height: 120px;
+    width:120px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:800px){
+    .input-new{
+        width:260px;
+    }
+    .input-new input{
+        width:200px;
+    }
+}
+
+

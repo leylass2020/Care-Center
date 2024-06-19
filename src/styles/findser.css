@@ -1,0 +1,29 @@
+.find-row{
+    background-color: rgba(230, 246, 254, 1);
+    padding: 30px;
+   
+}
+.find-row h1{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+.find-row .search-nav{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+}
+.find-row .search-nav .search{
+    height: 40px;
+    width:300px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+}

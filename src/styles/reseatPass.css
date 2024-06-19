@@ -1,0 +1,132 @@
+
+
+.reseat-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.titRes{
+    text-align: center;
+    color:rgba(89, 193, 46, 1);
+}
+
+.right-reset{
+    background-color: rgba(116, 188, 238, 1);
+    height:fit-content;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right-reset form input {
+    min-width:200px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;   
+}
+.right-reset form input:focus{
+    border: none;
+}
+.right-reset form .icon{
+    margin-left: -40px;
+    width:27px;
+    height:27px;
+}
+.right-reset form .icon1{
+    width:27px;
+    height:27px;
+}
+
+.right-reset div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.right-reset form button{
+    width:250px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(193, 232, 177, 1);
+    margin-top: 10px;
+}
+.right-reset form .iban{
+    width:40px;
+    margin-left: 10px;
+    
+}
+.right-reset form .iban-cod {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.input-new{
+    width:300px;
+    height:fit-content;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.right-account{
+    background-color: white !important;
+}
+.attach-file {
+    background-color: rgba(193, 232, 177, 1);
+    height: fit-content;
+    width:300px;
+    border-radius: 10px;
+    color: white;
+    margin-left: auto;
+    align-items: flex-start;
+}
+.attach-file p{
+    margin-right: -140px;
+    margin-top: 10px;
+}
+.attach-btn {
+    width:300px;
+    background-color: rgba(193, 232, 177, 1);
+    border-radius: 10px;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+@media (max-width:850px){
+    .right-reset form button{
+        width:150px;
+    }
+    .reseat-row{
+        flex-direction: column;
+    }
+    .right-reset{
+        flex-direction:row;
+    }
+    .p-row{
+        flex-direction: column;
+    }
+    .right-reset .r-row{
+        flex-direction: column;
+    }
+   
+
+}
+
+

@@ -1,0 +1,95 @@
+.creat-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.titcre{
+    text-align: center;
+    color:rgba(89, 193, 46, 1);
+}
+
+.right-creat{
+    background-color: rgba(116, 188, 238, 1);
+    height:fit-content;
+    width: 550px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.row1{
+    margin-top: 20px;
+    margin-right: auto;  
+}
+.right-form{
+    padding: 20px;
+}
+.login-btn{
+    margin-right: -4px;
+}
+.right-creat form .icon{
+    margin-left:-30px;
+    margin-top: 10px;
+}
+.forgit{
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.right-creat div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.right-creat label, .right-creat .label {
+    text-align: left;
+    
+}
+
+.right-creat div input{
+    width:25vw;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    background-color:white;
+    margin-top: 10px;
+}
+
+.right-creat form button{
+    width:25vw;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(193, 232, 177, 1);
+    margin-top: 10px;
+}
+@media (max-width:830px){
+    .right-creat div input{
+        width:200px;
+    }
+    .right-creat{
+        width: 550px;
+    }
+
+}
+@media (max-width:630px){
+    
+    .mb-3 {
+        flex-direction: column;
+    }
+    .mb-3 .row1{
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .creat-row{
+        flex-direction: column;
+    }
+}

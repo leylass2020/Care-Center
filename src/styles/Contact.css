@@ -1,0 +1,85 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.in-touch{
+    background-image: linear-gradient(rgb(239, 250, 255)
+   , rgba(230, 246, 254, 0));
+   padding-top: 100px;
+}
+.container-right ,.container-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    font-family: "Roboto";
+}
+.container-left{
+    flex-direction: column;
+}
+.bar, .bar1{
+    background-color: white;
+    height:100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.bar{
+    margin-top: 20px;
+    width:480px;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.08);
+    margin-left: 5px;
+}
+.bar1{
+    width:470px;
+    margin-left: 10px;
+    margin-top: -110px;
+    position: relative;
+}
+
+.contact-form{
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.button-submit{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.contact-form * {
+    margin-bottom: 7px;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: transparent !important;
+}
+.head h1{
+    font-style: italic;
+    font-size: 64px;
+    font-weight: lighter;
+}
+.PhoneInputCountryIcon{
+    display: none;
+}
+.PhoneInputCountrySelect{
+    width:50px;
+    border: none;
+    background-color: transparent;
+}
+

@@ -1,0 +1,26 @@
+.specila{
+    margin-top: 200px;
+    margin-left: 10px;
+    background-color: gainsboro;
+    background-image: linear-gradient(to right, rgba(37, 180, 248, 0.3), rgba(37, 180, 248, 0));
+    width:fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 70px;
+    border-radius: 10px;
+}
+.sp-con{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+.sp-im{
+    width:270px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 24px;
+}

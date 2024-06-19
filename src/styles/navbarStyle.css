@@ -1,0 +1,154 @@
+ .row-nav{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(230, 246, 254, 1);
+    height:fit-content;
+    margin-bottom: 20px;
+}
+.care-nav{
+    margin-left: 10vw;
+    margin-right: 20px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-nav{
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+}
+.search-nav img{
+    width:25px;
+    height: 25px;
+}
+.right-nav .name{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.right-nav img{
+    height: 80px;
+}
+.right-nav .search{
+    height: 30px;
+    width:200px;
+    border: none;
+    border-radius: 50px;
+}
+.care-nav{
+    display: flex;
+    gap:20px;
+    justify-content: flex-start;
+}
+.care-nav a{
+    text-decoration: none;
+    color: black;
+}
+.care-nav a:hover ,.care-nav a:active {
+    font-style: italic;
+}
+.name{
+    font-size: 40px;
+}
+.green{
+    color:rgba(89, 193, 46, 1);
+}
+
+.dropdown{
+    display: none;
+}
+.lang{
+    position: fixed;
+    top:20px;
+    
+}
+
+@media (max-width:1000px) {
+    .row-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+    .care-nav{
+        display: none;
+    }
+    .dropdown{
+        display: flex; 
+        align-items: center;
+        width: fit-content;   
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+    .dropdown ul li{
+        color: black;
+        font-style: none;
+    }
+    .dropdown button{
+        background-color: rgba(89, 193, 46, 1);
+        border: none;
+    }
+    .dropdown-menu{
+        width:50px;
+        padding: 5px;
+        background-color: rgba(230, 246, 254, 1);
+    }
+    .dropdown .show button{
+        background-color: rgba(89, 193, 46, 1);
+    }
+    .dropdown .show a{
+        text-decoration: none;
+        color: black;
+    }
+    .dropdown button:hover,.dropdown button:focus {
+        background-color:rgba(89, 193, 46, 1);
+        border: none;
+    }
+    .nav-collapse{
+        display: none;
+    }
+}
+
+@media (max-width:610px) {
+    .right-nav .search{ 
+        width:100px;
+    }
+    .search-nav{
+        width: 200px;
+    }
+    .right-nav .name{
+        margin-left: 10px;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    .right-nav img{
+        height: 50px; 
+    }
+    
+}
+@media (max-width:500px){
+    .lang{
+        top:10px
+    }
+    .right-nav .name{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .right-nav img{
+        height: 40px; 
+    }
+    .dropdown{
+        margin-right: 5px;
+    }
+}

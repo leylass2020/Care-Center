@@ -1,0 +1,21 @@
+.client{
+    background-color: white;
+    margin-top: 30px;
+
+}
+.client .card{
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+.client .card , .client .card-header{
+    border: none;
+    align-items: center;
+}
+.client h5 , .client p{
+    color: black;
+    text-align: left;
+}
+.name-client{
+    margin-left: 20px;
+    align-items: flex-start;
+}

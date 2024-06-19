@@ -1,0 +1,76 @@
+.left-acc-prov{
+    background-color: rgba(116, 188, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:fit-content;
+    height:98%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.row-pro{
+    margin: 20px;
+}
+.left-acc-prov button{
+    width:200px;
+    height:40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(230, 246, 254, 1);
+    text-align: center;
+    color:black;
+    margin-bottom: 20px;
+    
+}
+.left-acc-prov button a{
+    text-decoration: none;
+    color: black;
+}
+.person-img{
+    height: 8vw;
+    width:8vw;      
+}
+
+.per-con{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 25px;
+    height:9vw;
+    width: 9vw;
+}
+.dropdown1{
+    display: none;
+}
+.patient-collaps{
+    display: none;
+}
+
+@media (max-width:1000px) {
+    #coll-h{
+        display: none;
+    }
+    .per-con{
+        margin:5px;
+    }
+    .left-acc-prov {
+        display: none;
+        position: absolute;
+    }
+    .patient-collaps{
+        display: flex;
+    }
+    .left-prov-coll{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .left-acc-prov{
+        padding: 5px;
+        display: flex;
+    }
+
+}
